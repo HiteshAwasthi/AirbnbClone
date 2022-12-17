@@ -10,10 +10,7 @@ const Accommodation = props => {
     <View style={styles.container}>
       {/* Image */}
       {/* <Text>HEllo</Text> */}
-      <Image
-        style={styles.image}
-        source={require('../../../assets/images/homeImage.jpg')}
-      />
+      <Image style={styles.image} source={{uri: Accommodation.image}} />
 
       {/* Bedrooms */}
       <Text style={styles.bedroom}>
