@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     flexDirection: 'row',
     position: 'absolute',
-    top: 10,
+    top: 25,
     left: '12%',
     // zIndex: 100,
   },
