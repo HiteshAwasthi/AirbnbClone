@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    color: 'black',
+
     marginVertical: 6,
   },
   oldPrice: {
@@ -37,14 +37,13 @@ const styles = StyleSheet.create({
   newPrice: {
     fontSize: 20,
     color: 'black',
-    fontStyle: 'bold',
+    fontWeight: 'bold',
     marginVertical: 2,
     // marginHorizontal: 20,
   },
   totalPrice: {
     fontSize: 20,
-    color: 'black',
-    fontStyle: 'bold',
+    color: '#5b5b5b',
     marginVertical: 2,
     // marginHorizontal: 10,
     textDecorationLine: 'underline',
