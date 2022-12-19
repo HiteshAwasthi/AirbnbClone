@@ -4,6 +4,9 @@ import HomeScreen from './src/screen/Home/Home';
 import Accommodation from './src/screen/Accommodation';
 import feed from './assets/feed';
 import SearchResult from './src/screen/SearchResult';
+import LocationSearchBar from './src/screen/LocationSearchBar';
+import GuestScreen from './src/screen/Guest/Index';
+
 const App = props => {
   const Accommodation1 = feed[0];
   return (
@@ -12,7 +15,9 @@ const App = props => {
        */}
       {/* <Accommodation Accommodation={Accommodation1} /> */}
 
-      <SearchResult />
+      {/* <SearchResult /> */}
+      {/* <LocationSearchBar /> */}
+      <GuestScreen />
     </SafeAreaView>
   );
 };
